@@ -5,11 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <title>Site básico</title>
 </head>
 <body>
     <h1>Site para atividade carlos</h1>
-    
+    <br><br>
+    <label for="cidade">Digite uma cidade</label>
+    <input type="text"  id="cidade">
+    <br><br>
+    <button onclick="inserir()">Inserir</button>
+    <br><br>
+    <button onclick="excluir()">Excluir</button>
+    <br><br>
+
+        
+    <button onclick="insert_inicio()">Inserir no Inicio</button>
+    <br><br>
+    <button ondblclick="excluir_final()"> Excluir do final</button>
+    <br><br>
+    <div id="res"></div>
 </body>
 </html>
